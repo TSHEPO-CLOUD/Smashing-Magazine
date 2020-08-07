@@ -154,3 +154,48 @@ h1 {
   margin-bottom: 30px;
   background: transparent;
 }
+
+.second-grid .fas.fa-long-arrow-alt-right {
+  color:black;
+  margin-top: 550px;
+  background: transparent;
+  margin-left: -120px;
+  font-size: x-large;
+}
+
+.second-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+}
+
+.second-grid .boxx {
+  width: 100%;
+  height: 600px;
+  background-color: lightgrey;
+}
+
+.second-grid .boxx p {
+  float: left;
+  margin-left: 40px;
+  margin-top: 50px;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.second-grid .boxx:hover {
+  background:lightgray;
+  cursor: pointer;
+}
+.second-grid .box5:hover {
+  background:white;
+}
+
+.second-grid .box6:hover {
+  background:white;
+}
+
+.second-grid .box7:hover {
+  background:white;
+}
