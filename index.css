@@ -5,10 +5,12 @@
   background: gray;
 }
 
-body {
-  margin: 0;
-  overflow-y: scroll;
-  overflow-x: hidden;
+@media only screen and (max-width: 1440px) {
+  body {
+    margin: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
 }
 
 .nav-bar {
@@ -111,12 +113,33 @@ h1 {
   height: 500px;
 }
 
+.first-grid .boxxx {
+  padding-top: -150px;
+  height: 300px;
+  border-bottom: none;
+}
+
 .third-grid img {
   position: relative;
   width: 100px;
   height: 50px;
   margin-top: 40px;
   margin-left: 400px;
+}
+
+.container2 img {
+  width: 600px;
+  height: 300px;
+  margin-top: 100px;
+  margin-left: 380px;
+  background: transparent;
+}
+
+.first-grid .boxxx img {
+  width: 80px;
+  height: 80px;
+  border: 5px solid #fff;
+  border-radius: 3px;
 }
 
 .first-grid .box img {
@@ -217,6 +240,10 @@ p {
   font-weight: bold;
 }
 
+.first-grid .boxx {
+  text-align: start;
+}
+
 .second-grid .boxx:hover {
   background: lightgray;
   cursor: pointer;
@@ -286,6 +313,15 @@ h6 {
   margin-left: 300px;
 }
 
+.container2 button {
+  width: 350px;
+  height: 70px;
+  font-size: larger;
+  margin-top: 50px;
+  border-radius: 10px;
+  margin-left: 500px;
+}
+
 .third-grid button:hover {
   background: lightgray;
   color: black;
@@ -299,6 +335,11 @@ h6 {
 .text .fas.fa-long-arrow-alt-right {
   background: transparent;
   text-decoration: underline;
+}
+
+.container2 .fas.fa-long-arrow-alt-right {
+  background: transparent;
+  padding-left: 10px;
 }
 
 .third-grid .column .fas.fa-long-arrow-alt-right {
@@ -315,6 +356,12 @@ h6 {
 
 .text a {
   color: black;
+}
+
+.container2 h5 a {
+  color: #333;
+  font-size: x-large;
+  background: transparent;
 }
 
 .third-grid .column h5 a {
@@ -408,10 +455,31 @@ h6 {
   border-radius: 20px;
 }
 
+.partner .grid0 img {
+  width: 200px;
+  height: 200px;
+  margin: 20px 40px;
+  border: 5px solid #fff;
+}
+
 #container img {
   width: 400px;
   height: 100px;
   margin-top: 40px;
+}
+
+.partner .grid0 p {
+  margin: 250px 300px;
+  font-size: larger;
+  text-align: start;
+}
+
+.first-grid .boxxx .grid1 p {
+  margin-top: -30px;
+}
+
+.first-grid .boxxx .grid2 p {
+  margin-top: -30px;
 }
 
 #container p {
@@ -420,20 +488,35 @@ h6 {
   text-decoration: underline;
 }
 
+.first-grid .boxxx .grid2 h3 {
+  margin-top: -20px;
+}
+
+.first-grid .boxxx .grid1 h3 {
+  margin-top: -20px;
+}
+
 #container h3 {
   font-size: 14px;
   margin-top: 10px;
 }
 
+.container2 button:hover {
+  background: grey;
+  color: #333;
+}
+
 #container button {
-  width: 250px;
+  width: 350px;
   height: 70px;
   margin-top: 50px;
   margin-left: 100px;
   border-radius: 10px;
+  font-size: large;
 }
 
 #container button:hover {
+  background: transparent;
   color: black;
 }
 
@@ -442,7 +525,34 @@ h6 {
 }
 
 #container .text .fas.fa-long-arrow-alt-right {
+  background: transparent;
   color: black;
   margin-left: 20px;
   font-size: 10px;
+}
+
+.container2 {
+  background: lightgrey;
+  height: 800px;
+  margin-top: 20px;
+  padding-top: 30px;
+}
+
+.partner {
+  margin: 20px 10px;
+  border: 1px solid #fff;
+}
+
+.partner .grid0 h5 {
+  margin: -220px 300px;
+  text-align: start;
+  font-size: larger;
+}
+
+.first-grid .boxxx .grid2 h5 {
+  margin-top: -10px;
+}
+
+.first-grid .boxxx .grid1 h5 {
+  margin-top: -10px;
 }
