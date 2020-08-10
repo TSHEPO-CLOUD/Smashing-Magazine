@@ -365,3 +365,65 @@ p {
   font-size: x-large;
   background: transparent;
 }
+
+#container {
+  border: 1px solid #fff;
+  height: 500px;
+  width: 1200px;
+  padding: 20px 10px;
+  margin-top: 35px;
+  margin-left: 70px;
+  border-radius: 20px;
+
+}
+
+#container, img, h3, p, button, h5 {
+  text-align: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+#container img {
+  width: 400px;
+  height: 100px;
+  margin-top: 40px; 
+}
+
+#container p {
+  font-size:x-large;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+#container h3 {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#container button {
+  width: 250px;
+  height: 70px;
+  margin-top: 50px;
+  margin-left: 100px;
+  border-radius: 10px;
+}
+
+#container button:hover {
+  color: black;
+}
+
+#container .fas.fa-long-arrow-alt-right {
+  background: transparent;
+  margin-left: 20px;
+  font-weight: 10px ;
+}
+
+.text a {
+   color: yellow;
+ }
+ 
+ .text .fas.fa-long-arrow-alt-right {
+   background: transparent;
+   text-decoration:underline;
+
+ }
