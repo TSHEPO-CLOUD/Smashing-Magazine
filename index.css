@@ -117,6 +117,16 @@ h1 {
   border-radius: 5px;
 }
 
+.third-grid,
+h6,
+h4,
+h5,
+p {
+  background: transparent;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
 .first-grid .box p {
   float: left;
   margin-left: 40px;
@@ -213,6 +223,7 @@ h1 {
   background: white;
 }
 
+/* third grid part */
 .third-grid {
   position: absolute;
   display: grid;
@@ -227,19 +238,130 @@ h1 {
   margin-top: 40px;
   margin-left: 40px;
   border: 1px solid #fff;
+  border-radius: 20px;
+}
+
+.third-grid .column img {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  margin-top: 40px;
+  margin-left: 350px;
+}
+
+.third-grid .column p {
+  text-align: center;
+  padding: 20px;
+}
+
+.third-grid h6 {
+  bottom: 1px;
 }
 
 .third-grid button {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background: transparent;
   position: relative;
   margin-top: 100px;
-  align-items: center;
+  margin-left: 300px;
 }
 
-.third-grid .fas.fa-long-arrow-alt-right {
-  position: relative;
+.third-grid button:hover {
+  background: lightgray;
   color: black;
-  margin-top: 550px;
+}
+
+.third-grid .column button span {
   background: transparent;
-  margin-left: -120px;
+  font-size: 20px;
+}
+
+.third-grid .column .fas.fa-long-arrow-alt-right {
+  color: black;
+  margin-top: 5px;
+  background: transparent;
+  margin-left: 50px;
+  font-size: large;
+}
+
+.third-grid .column h5 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.third-grid .column h5 a {
+  text-decoration: none;
+}
+
+.third-grid .column2 {
+  width: 450px;
+  height: 500px;
+  margin-top: 40px;
+  margin-left: 870px;
+  border: 1px solid #fff;
+  background: transparent;
+}
+
+.third-grid .column2:hover {
+  background: #fff;
+}
+
+.third-grid .column2 p {
+  font-weight: bold;
+}
+
+.third-grid .column2 h4 {
+  color: brown;
+  font-size: 15px;
+}
+
+.third-grid .column2 .fas.fa-long-arrow-alt-right {
+  background: transparent;
+  margin-left: 30px;
+  padding-top: 230px;
   font-size: x-large;
+}
+
+/* fourth grid  */
+
+.fourth-grid {
+  display: flex;
+  margin-top: 600px;
+}
+
+.fourth-grid .section {
+  width: 450px;
+  height: 500px;
+}
+
+.fourth-grid .section:hover {
+  background: #fff;
+}
+
+.fourth-grid,
+.section1,
+.section2,
+.section3 h6 {
+  padding: 10px;
+}
+
+.fourth-grid .section1 h4 {
+  color: brown;
+}
+
+.fourth-grid .section2 h4 {
+  color: brown;
+}
+
+.fourth-grid .section3 h4 {
+  color: brown;
+}
+
+.fourth-grid .section .fas.fa-long-arrow-alt-right {
+  margin-top: 230px;
+  margin-left: 20px;
+  font-size: x-large;
+  background: transparent;
 }
