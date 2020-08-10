@@ -54,6 +54,17 @@ button {
   margin-left: -70px;
 }
 
+#container,
+img,
+h3,
+p,
+button,
+h5 {
+  text-align: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
 button:hover {
   background: lightgrey;
 }
@@ -250,8 +261,15 @@ p {
 }
 
 .third-grid .column p {
-  text-align: center;
   padding: 20px;
+}
+
+.fourth-grid,
+.section1,
+.section2,
+.section3,
+h6 {
+  padding: 10px;
 }
 
 .third-grid h6 {
@@ -278,6 +296,11 @@ p {
   font-size: 20px;
 }
 
+.text .fas.fa-long-arrow-alt-right {
+  background: transparent;
+  text-decoration: underline;
+}
+
 .third-grid .column .fas.fa-long-arrow-alt-right {
   color: black;
   margin-top: 5px;
@@ -287,8 +310,11 @@ p {
 }
 
 .third-grid .column h5 {
-  text-align: center;
   margin-top: 30px;
+}
+
+.text a {
+  color: black;
 }
 
 .third-grid .column h5 a {
@@ -309,6 +335,7 @@ p {
 }
 
 .third-grid .column2 p {
+  text-align: start;
   font-weight: bold;
 }
 
@@ -317,10 +344,14 @@ p {
   font-size: 15px;
 }
 
+.third-grid .column2 h5 {
+  text-align: start;
+}
+
 .third-grid .column2 .fas.fa-long-arrow-alt-right {
   background: transparent;
   margin-left: 30px;
-  padding-top: 230px;
+  padding-top: 210px;
   font-size: x-large;
 }
 
@@ -336,15 +367,16 @@ p {
   height: 500px;
 }
 
-.fourth-grid .section:hover {
-  background: #fff;
+.fourth-grid .section p {
+  text-align: start;
 }
 
-.fourth-grid,
-.section1,
-.section2,
-.section3 h6 {
-  padding: 10px;
+.fourth-grid .section h5 {
+  text-align: start;
+}
+
+.fourth-grid .section:hover {
+  background: #fff;
 }
 
 .fourth-grid .section1 h4 {
@@ -360,7 +392,7 @@ p {
 }
 
 .fourth-grid .section .fas.fa-long-arrow-alt-right {
-  margin-top: 230px;
+  margin-top: 200px;
   margin-left: 20px;
   font-size: x-large;
   background: transparent;
@@ -374,23 +406,16 @@ p {
   margin-top: 35px;
   margin-left: 70px;
   border-radius: 20px;
-
-}
-
-#container, img, h3, p, button, h5 {
-  text-align: center;
-  align-items: center;
-  padding-top: 10px;
 }
 
 #container img {
   width: 400px;
   height: 100px;
-  margin-top: 40px; 
+  margin-top: 40px;
 }
 
 #container p {
-  font-size:x-large;
+  font-size: x-large;
   font-weight: bolder;
   text-decoration: underline;
 }
@@ -412,18 +437,12 @@ p {
   color: black;
 }
 
-#container .fas.fa-long-arrow-alt-right {
-  background: transparent;
-  margin-left: 20px;
-  font-weight: 10px ;
+#container .text {
+  color: black;
 }
 
-.text a {
-   color: yellow;
- }
- 
- .text .fas.fa-long-arrow-alt-right {
-   background: transparent;
-   text-decoration:underline;
-
- }
+#container .text .fas.fa-long-arrow-alt-right {
+  color: black;
+  margin-left: 20px;
+  font-size: 10px;
+}
