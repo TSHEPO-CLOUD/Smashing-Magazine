@@ -556,3 +556,155 @@ h6 {
 .first-grid .boxxx .grid1 h5 {
   margin-top: -10px;
 }
+
+#grid-col {
+  display: grid;
+  grid-template-columns: 800px;
+  grid-template-rows: 300px;
+  background: lightgrey;
+  border: 1px solid #fff;
+  padding: 20px 10px;
+  margin-top: 35px;
+  margin-left: 0px;
+}
+
+.col1 {
+  background: lightgrey;
+}
+
+#grid-col a {
+background: lightgrey;
+text-align: start;
+}
+
+#grid-col h1 {
+  background:lightgrey;
+  text-align: start;
+  margin-left: 30px;
+}
+#grid-col h3 {
+  background: lightgrey;
+  text-align: start;
+  margin-left: 30px;
+}
+
+#grid-col p {
+  background: transparent;
+  text-align: start;
+  margin-left: 30px;
+}
+
+#grid-col button {
+  width: 350px;
+  height: 70px;
+  margin-top: 50px;
+  margin-left: 30px;
+  border-radius: 10px;
+  font-size: large;
+}
+
+#grid-col .fas.fa-long-arrow-alt-right {
+  background: transparent;
+  color: black;
+  margin-left: 20px;
+  font-size: 10px;
+}
+
+#grid-col button:hover {
+  background: grey;
+  color: #333;
+}
+
+.container3 {
+  display: grid;
+  grid-template-columns: 570px 570px;
+  grid-template-rows: 480px 480px;
+  padding-left: 80px;
+  grid-gap: 20px;
+  background:lightgrey;
+}
+
+.cont1,
+h4,
+h1,
+p
+  {
+  text-align: start;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.cont1 button {
+  width: 350px;
+  height: 70px;
+  margin-top: 50px;
+  margin-left: 30px;
+  border-radius: 10px;
+  font-size: large;
+}
+
+.cont2 button {
+  width: 350px;
+  height: 70px;
+  margin-top: 50px;
+  margin-left: 30px;
+  border-radius: 10px;
+  font-size: large;
+}
+
+.cont3 button {
+  width: 350px;
+  height: 70px;
+  margin-top: 50px;
+  margin-left: 30px;
+  border-radius: 10px;
+  font-size: large;
+}
+
+.cont4 button {
+  width: 350px;
+  height: 70px;
+  margin-top: 50px;
+  margin-left: 30px;
+  border-radius: 10px;
+  font-size: large;
+}
+
+.cont1 {
+  text-align: start;
+  padding-left: 100px;
+  border-radius: 10px;
+}
+
+.cont2 {
+  border-radius: 10px;
+  padding-left: 100px;
+}
+
+
+.cont3 {
+  border-radius: 10px;
+}
+
+
+.cont4 {
+  border-radius: 10px;
+}
+
+.cont4 img {
+  margin-left: 250px;
+  height: 50px;
+  width: 50px;
+}
+
+.main-footer {
+  display: inline;
+}
+
+.fot {
+  display:inline-block;
+}
+
+.fot-list{
+  display: inline
+}
