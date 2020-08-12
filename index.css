@@ -113,12 +113,6 @@ h1 {
   height: 500px;
 }
 
-.first-grid .boxxx {
-  padding-top: -150px;
-  height: 300px;
-  border-bottom: none;
-}
-
 .third-grid img {
   position: relative;
   width: 100px;
@@ -135,11 +129,13 @@ h1 {
   background: transparent;
 }
 
-.first-grid .boxxx img {
-  width: 80px;
-  height: 80px;
-  border: 5px solid #fff;
-  border-radius: 3px;
+.grid0 img {
+  width: 100px;
+  margin: 40px 40px;
+}
+
+.grid4 img {
+  width: 100px;
 }
 
 .first-grid .box img {
@@ -159,6 +155,12 @@ p {
   background: transparent;
   margin-top: 20px;
   padding-left: 10px;
+}
+
+.grid0 p {
+  text-align: start;
+  margin-left: 170px;
+  font-size: 20px;
 }
 
 .first-grid .box p {
@@ -350,6 +352,13 @@ h6 {
   font-size: large;
 }
 
+.grid0 h5 {
+  text-align: start;
+  font-size: medium;
+  margin-top: -120px;
+  margin-left: 170px;
+}
+
 .third-grid .column h5 {
   margin-top: 30px;
 }
@@ -474,26 +483,15 @@ h6 {
   text-align: start;
 }
 
-.first-grid .boxxx .grid1 p {
-  margin-top: -30px;
-}
-
-.first-grid .boxxx .grid2 p {
-  margin-top: -30px;
-}
-
 #container p {
   font-size: x-large;
   font-weight: bolder;
   text-decoration: underline;
 }
 
-.first-grid .boxxx .grid2 h3 {
-  margin-top: -20px;
-}
-
-.first-grid .boxxx .grid1 h3 {
-  margin-top: -20px;
+.grid4 h3 {
+  text-align: start;
+  margin-left: 180px;
 }
 
 #container h3 {
@@ -538,21 +536,15 @@ h6 {
   padding-top: 30px;
 }
 
-.partner {
-  margin: 20px 10px;
-  border: 1px solid #fff;
+.grid0 {
+  width: 1400px;
+  height: 200px;
 }
 
-.partner .grid0 h5 {
-  margin: -220px 300px;
-  text-align: start;
-  font-size: larger;
-}
-
-.first-grid .boxxx .grid2 h5 {
-  margin-top: -10px;
-}
-
-.first-grid .boxxx .grid1 h5 {
-  margin-top: -10px;
+.grid4 {
+  top: 1px;
+  margin-left: 50px;
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-gap: 150px;
 }
