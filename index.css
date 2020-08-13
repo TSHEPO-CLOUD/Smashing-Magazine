@@ -37,6 +37,41 @@ input {
   text-align: center;
   padding-top: 30px;
   padding-right: 90px;
+  border: 1px solid grey;
+}
+
+#container,
+img,
+h3,
+p,
+button,
+h5 {
+  text-align: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.boxes img {
+  width: 40px;
+  margin: -20px 20px;
+}
+
+.third-grid,
+h6,
+h4,
+h5,
+p {
+  background: transparent;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.third-grid p {
+  text-align: center;
+}
+
+.boxes p {
+  margin: -30px 60px;
 }
 
 .boxes {
@@ -56,15 +91,13 @@ button {
   margin-left: -70px;
 }
 
-#container,
-img,
-h3,
-p,
-button,
-h5 {
-  text-align: center;
-  align-items: center;
-  padding-top: 10px;
+.nav-bar button {
+  width: 120px;
+  text-align: start;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  font-size: 18px;
 }
 
 button:hover {
@@ -83,23 +116,38 @@ form {
   background: transparent;
 }
 
-.first button {
-  margin-top: -40px;
-  margin-right: 30px;
-  float: right;
-}
-
-.first img {
-  margin-top: -30px;
-  margin-right: 170px;
-  float: right;
-}
-
 .first,
 h1 {
   margin-top: 20px;
   color: #fff;
   text-align: center;
+}
+
+.cont1,
+h4,
+h1 {
+  text-align: start;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.first h1 {
+  text-align: center;
+}
+
+.first button {
+  width: 150px;
+  margin-top: -70px;
+  margin-right: 30px;
+  float: right;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.first img {
+  margin-top: -70px;
+  margin-right: 200px;
+  float: right;
 }
 
 .first-grid {
@@ -108,9 +156,73 @@ h1 {
   border-bottom: 1px solid white;
 }
 
+.first-grid h3 {
+  background: transparent;
+  color: #333;
+  float: left;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.first-grid h3 em {
+  background: transparent;
+}
+
+.first-grid sup {
+  background: transparent;
+  font-size: 14px;
+}
+
+.first-grid small {
+  background: transparent;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
 .first-grid .box {
   width: 100%;
   height: 500px;
+}
+
+.grid0 p {
+  text-align: start;
+  margin-left: 170px;
+  font-size: 20px;
+}
+
+.cont1 p {
+  text-align: start;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.last-link p {
+  margin-left: 570px;
+  font-size: 18px;
+}
+
+.cont2 p {
+  margin-right: 50px;
+}
+
+.a-links p {
+  margin-top: 70px;
+  margin-left: 490px;
+}
+
+.a p {
+  font-size: 12px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.container2 p {
+  text-align: center;
+}
+
+.first-grid .box p {
+  text-align: left;
+  font-size: 30px;
 }
 
 .third-grid img {
@@ -121,30 +233,12 @@ h1 {
   margin-left: 400px;
 }
 
-.third-grid,
-h6,
-h4,
-h5,
-p {
-  background: transparent;
-  margin-top: 20px;
-  padding-left: 10px;
-}
-
-.third-grid p {
-  text-align: center;
-}
-
 .container2 img {
   width: 600px;
   height: 300px;
   margin-top: 100px;
   margin-left: 380px;
   background: transparent;
-}
-
-.container2 p {
-  text-align: center;
 }
 
 .grid0 img {
@@ -171,26 +265,6 @@ p {
   border-radius: 5px;
 }
 
-.grid0 p {
-  text-align: start;
-  margin-left: 170px;
-  font-size: 20px;
-}
-
-.cont1 p {
-  text-align: start;
-  margin-top: 10px;
-  padding-left: 10px;
-}
-
-.first-grid .box p {
-  float: left;
-  margin-left: 40px;
-  margin-top: 10px;
-  color: #333;
-  font-weight: bold;
-}
-
 .first-grid .box span {
   float: left;
   margin-top: 30px;
@@ -200,8 +274,11 @@ p {
   font-size: 50px;
 }
 
-.first-grid .box1 {
+.first-grid .box1 p {
   background: gray;
+  background: transparent;
+  padding-left: 30px;
+  text-align: left;
 }
 
 .first-grid .box2 {
@@ -210,6 +287,8 @@ p {
 
 .first-grid .box2 p {
   background: transparent;
+  padding-left: 30px;
+  text-align: left;
 }
 
 .first-grid .box3 {
@@ -218,26 +297,85 @@ p {
 
 .first-grid .box3 p {
   background: transparent;
+  padding-left: 40px;
+  text-align: left;
 }
 
-.fas.fa-arrow-right {
-  font-size: xx-large;
-}
-
-.first-grid .fas.fa-long-arrow-alt-right {
-  float: left;
-  margin-top: 400px;
-  margin-left: -220px;
-  margin-bottom: 30px;
+.first-grid .box4 p {
   background: transparent;
+  padding-left: 30px;
+  text-align: left;
+}
+
+.container2 .fas.fa-long-arrow-alt-right {
+  background: transparent;
+  padding-left: 10px;
+}
+
+.text .fas.fa-long-arrow-alt-right {
+  background: transparent;
+  color: black;
+  margin-left: 2px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.link .fas.fa-long-arrow-alt-right {
+  text-decoration: underline;
+}
+
+.last-link a .fas.fa-long-arrow-alt-right {
+  text-decoration: underline;
+}
+
+.first-grid .box1 .fas.fa-long-arrow-alt-right {
+  margin-top: 190px;
+  float: left;
+  padding: 30px;
+  font-size: larger;
+}
+
+.first-grid .box2 .fas.fa-long-arrow-alt-right {
+  background: transparent;
+  margin-top: 150px;
+  float: left;
+  padding: 40px;
+  font-size: larger;
+}
+
+.first-grid .box3 .fas.fa-long-arrow-alt-right {
+  background: transparent;
+  margin-top: 110px;
+  float: left;
+  padding: 40px;
+  font-size: larger;
+}
+
+.first-grid .box4 .fas.fa-long-arrow-alt-right {
+  margin-top: 150px;
+  float: left;
+  padding: 30px;
+  font-size: larger;
+}
+
+.second-grid .box5 .fas.fa-long-arrow-alt-right {
+  color: black;
+  background: transparent;
+  margin: 220px 40px;
   font-size: x-large;
 }
 
-.second-grid .fas.fa-long-arrow-alt-right {
+.second-grid .box6 .fas.fa-long-arrow-alt-right {
   color: black;
-  margin-top: 550px;
   background: transparent;
-  margin-left: -120px;
+  margin: 170px 40px;
+  font-size: x-large;
+}
+
+.second-grid .box7 .fas.fa-long-arrow-alt-right {
+  color: black;
+  background: transparent;
+  margin: 155px 40px;
   font-size: x-large;
 }
 
@@ -254,10 +392,27 @@ p {
   background-color: lightgrey;
 }
 
-.second-grid .boxx p {
-  float: left;
+.second-grid h5 {
+  text-align: start;
+  margin-left: 30px;
+}
+
+.second-grid h3 {
+  background: transparent;
+  text-decoration: underline;
+  text-align: start;
   margin-left: 40px;
-  margin-top: 50px;
+}
+
+.second-grid small {
+  background: transparent;
+  text-decoration: underline;
+}
+
+.second-grid .boxx p {
+  text-align: left;
+  margin-left: 30px;
+  padding-top: 10px;
   background-color: transparent;
   font-weight: bold;
 }
@@ -268,19 +423,28 @@ p {
 
 .second-grid .boxx:hover {
   background: lightgray;
-  cursor: pointer;
+  transition: transform 0.2s;
 }
 
 .second-grid .box5:hover {
   background: white;
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .second-grid .box6:hover {
   background: white;
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .second-grid .box7:hover {
   background: white;
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /* third grid part */
@@ -311,6 +475,7 @@ p {
 
 .third-grid .column p {
   padding: 20px;
+  text-align: center;
 }
 
 .fourth-grid,
@@ -328,11 +493,17 @@ h6 {
 .third-grid button {
   width: 200px;
   height: 50px;
-  border-radius: 5px;
+  border-radius: 10px;
   background: transparent;
   position: relative;
   margin-top: 100px;
   margin-left: 300px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.third-grid.fas.fa-long-arrow-alt-right {
+  position: absolute;
 }
 
 .container2 button {
@@ -356,10 +527,11 @@ h6 {
 .cont2 button {
   width: 350px;
   height: 70px;
-  margin-top: 50px;
-  margin-left: 30px;
+  margin-top: 30px;
+  margin-left: 10px;
   border-radius: 10px;
   font-size: large;
+  color: black;
 }
 
 .cont3 button {
@@ -382,7 +554,45 @@ h6 {
 
 .container2 button:hover {
   background: grey;
-  color: #333;
+  color: #fff;
+}
+
+.row .fact1 button {
+  width: 250px;
+  height: 60px;
+  border-radius: 20px;
+  margin-top: 70px;
+  margin-left: 40px;
+  font-size: large;
+}
+
+.row .fact button {
+  width: 400px;
+  height: 60px;
+  border-radius: 20px;
+  margin-top: 70px;
+  margin-left: 40px;
+  font-size: large;
+}
+
+.row .fact2 button {
+  width: 250px;
+  height: 70px;
+  border-radius: 10px;
+  margin-top: 70px;
+  margin-left: 40px;
+  font-size: large;
+}
+
+.row .fact3 button {
+  position: absolute;
+  width: 110px;
+  height: 70px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 50px;
+  margin-left: -32px;
+  font-size: large;
 }
 
 .third-grid .column button:hover {
@@ -396,24 +606,12 @@ h6 {
   margin-left: 30px;
   border-radius: 10px;
   font-size: large;
+  color: black;
 }
 
 .third-grid .column button span {
   background: transparent;
   font-size: 20px;
-}
-
-.container2 .fas.fa-long-arrow-alt-right {
-  background: transparent;
-  padding-left: 10px;
-}
-
-.text .fas.fa-long-arrow-alt-right {
-  background: transparent;
-  color: black;
-  margin-left: 2px;
-  font-size: 15px;
-  text-decoration: none;
 }
 
 .third-grid .column .fas.fa-long-arrow-alt-right {
@@ -427,7 +625,7 @@ h6 {
 .grid0 h5 {
   text-align: start;
   font-size: medium;
-  margin-top: -120px;
+  margin-top: -170px;
   margin-left: 170px;
 }
 
@@ -439,10 +637,34 @@ h6 {
   color: black;
 }
 
+.last-link a {
+  color: black;
+}
+
+.a-links a {
+  background: transparent;
+  margin: 5px 5px 10px 20px;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.a a {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 15px;
+}
+
 .container2 h5 a {
   color: #333;
   font-size: x-large;
   background: transparent;
+}
+
+.link p a {
+  margin-top: 70px;
+  margin-left: 350px;
+  color: black;
 }
 
 .third-grid .column h5 a {
@@ -454,25 +676,21 @@ h6 {
   height: 500px;
   margin-top: 40px;
   margin-left: 870px;
+  transition: transform 0.2s;
   border: 1px solid #fff;
   background: transparent;
 }
 
 .third-grid .column2:hover {
   background: #fff;
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .third-grid .column2 p {
   text-align: start;
   font-weight: bold;
-}
-
-.cont1,
-h4,
-h1 {
-  text-align: start;
-  margin-top: 10px;
-  padding-left: 10px;
 }
 
 .third-grid .column2 h4 {
@@ -513,6 +731,10 @@ h1 {
 
 .fourth-grid .section:hover {
   background: #fff;
+  transition: transform 0.2s;
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .fourth-grid .section1 h4 {
@@ -551,6 +773,11 @@ h1 {
   border: 5px solid #fff;
 }
 
+.row .fact3 img {
+  height: 250px;
+  margin-left: 250px;
+}
+
 #container img {
   width: 400px;
   height: 100px;
@@ -561,6 +788,22 @@ h1 {
   margin: 250px 300px;
   font-size: larger;
   text-align: start;
+}
+
+.row .fact p {
+  margin-left: 30px;
+}
+
+.row .fact1 p {
+  margin-left: 30px;
+}
+
+.row .fact2 p {
+  margin-left: 30px;
+}
+
+.row .fact3 p {
+  margin-left: 30px;
 }
 
 #container p {
@@ -609,7 +852,7 @@ h1 {
 
 .grid0 {
   width: 1400px;
-  height: 200px;
+  height: 250px;
 }
 
 .grid4 {
@@ -648,7 +891,7 @@ h1 {
 #grid-col h3 {
   background: lightgrey;
   text-align: start;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 #grid-col p {
@@ -660,51 +903,163 @@ h1 {
 #grid-col .fas.fa-long-arrow-alt-right {
   background: transparent;
   color: black;
-  margin-left: 20px;
-  font-size: 10px;
+  margin-left: 10px;
+  font-size: large;
 }
 
 #grid-col button:hover {
   background: grey;
-  color: #333;
+  color: #fff;
 }
 
 .container3 {
+  width: 60px;
   display: grid;
-  grid-template-columns: 570px 570px;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 480px 480px;
-  padding-left: 80px;
-  grid-gap: 20px;
+  padding-left: 35px;
+  grid-gap: 40px;
   background: lightgrey;
 }
 
 .cont1 {
+  margin-top: 60px;
   text-align: start;
-  padding-left: 100px;
+  padding-top: 10px;
   border-radius: 10px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 10px;
+  grid-gap: 5px;
+  margin-top: 40px;
+}
+
+.row .fact {
+  width: 600px;
+  height: 500px;
+  margin: 30px 30px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+
+.row .fact1 {
+  width: 600px;
+  height: 500px;
+  margin: 30px 30px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+
+.row .fact1 h4 {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.row .fact1 h2 {
+  margin-left: 40px;
+  font-size: 40px;
+}
+
+.row .fact h4 {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.row .fact h2 {
+  margin-left: 40px;
+  font-size: 40px;
+}
+
+.row .fact2 {
+  width: 600px;
+  height: 700px;
+  margin: 30px 30px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.row .fact3 {
+  width: 600px;
+  height: 700px;
+  margin: 30px 30px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.row .fact2 h4 {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.row .fact2 h2 {
+  margin-left: 40px;
+  font-size: 40px;
+}
+
+.row .fact3 h2 {
+  margin-left: 30px;
+  font-size: 40px;
+}
+
+.row .fact3 input {
+  position: relative;
+  width: 350px;
+  height: 70px;
+  margin: 50px 30px;
+  text-align: start;
+  padding-left: 5px;
+  font-size: 30px;
+}
+
+.row .fact3 strong {
+  font-size: 25px;
 }
 
 .cont2 {
+  margin-top: 60px;
+  padding-top: 10px;
   border-radius: 10px;
-  padding-left: 100px;
 }
 
 .cont3 {
+  background: #fff;
+  height: 500px;
+  margin-top: 60px;
+  text-align: start;
+  padding-top: 10px;
   border-radius: 10px;
 }
 
 .cont4 {
+  background: #fff;
+  margin-top: 60px;
+  text-align: start;
+  padding-top: 10px;
   border-radius: 10px;
 }
 
-.main-footer {
-  display: inline;
+footer {
+  margin-top: 100px;
 }
 
-.fot {
-  display: inline-block;
+.footer {
+  border: transparent;
+  background: lightgrey;
 }
 
-.fot-list {
-  display: inline;
+.a-links {
+  margin-top: 50px;
+  background: lightgrey;
+  text-align: center;
+}
+
+.a {
+  margin-top: 40px;
+  height: 200px;
+  background: lightgrey;
+  align-items: center;
+  font-size: 12px;
 }
