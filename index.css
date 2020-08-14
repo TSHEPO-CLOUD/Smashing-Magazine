@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -5,12 +6,10 @@
   background: gray;
 }
 
-@media only screen and (max-width: 1440px) {
-  body {
-    margin: 0;
-    overflow-y: scroll;
-    overflow-x: hidden;
-  }
+body {
+  margin: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .nav-bar {
@@ -361,21 +360,21 @@ h1 {
 .second-grid .box5 .fas.fa-long-arrow-alt-right {
   color: black;
   background: transparent;
-  margin: 220px 40px;
+  margin: 240px 40px;
   font-size: x-large;
 }
 
 .second-grid .box6 .fas.fa-long-arrow-alt-right {
   color: black;
   background: transparent;
-  margin: 170px 40px;
+  margin: 220px 40px;
   font-size: x-large;
 }
 
 .second-grid .box7 .fas.fa-long-arrow-alt-right {
   color: black;
   background: transparent;
-  margin: 155px 40px;
+  margin: 200px 40px;
   font-size: x-large;
 }
 
@@ -595,8 +594,14 @@ h6 {
   font-size: large;
 }
 
+.third-grid .column button {
+  background: transparent;
+  font-size: 12px;
+}
+
 .third-grid .column button:hover {
   background: #fff;
+  color: black;
 }
 
 #grid-col button {
@@ -609,17 +614,12 @@ h6 {
   color: black;
 }
 
-.third-grid .column button span {
-  background: transparent;
-  font-size: 20px;
-}
-
 .third-grid .column .fas.fa-long-arrow-alt-right {
   color: black;
   margin-top: 5px;
   background: transparent;
   margin-left: 50px;
-  font-size: large;
+  font-size: small;
 }
 
 .grid0 h5 {
