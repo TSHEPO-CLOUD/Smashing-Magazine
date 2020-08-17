@@ -115,16 +115,19 @@ form {
   background: transparent;
 }
 
-.first,
-h1 {
+.first1 h1 {
+  width: 30%;
   margin-top: 20px;
-  color: #fff;
+  margin-left: 470px;
+  color: #333;
   text-align: center;
 }
 
-.cont1,
-h4,
-h1 {
+.first1 span {
+  background: #fff;
+}
+
+.cont1 h1 {
   text-align: start;
   margin-top: 10px;
   padding-left: 10px;
