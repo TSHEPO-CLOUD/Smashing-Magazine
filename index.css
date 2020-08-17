@@ -16,6 +16,7 @@ body {
   display: inline-flex;
   border-bottom: 1px solid white;
   justify-content: space-between;
+  background: darkgray;
 }
 
 input {
@@ -36,7 +37,7 @@ input {
   text-align: center;
   padding-top: 30px;
   padding-right: 90px;
-  border: 1px solid grey;
+  background: darkgray;
 }
 
 #container,
@@ -53,6 +54,7 @@ h5 {
 .boxes img {
   width: 40px;
   margin: -20px 20px;
+  background: transparent;
 }
 
 .third-grid,
@@ -106,6 +108,7 @@ button:hover {
 form {
   margin-right: 30px;
   position: relative;
+  background: darkgray;
 }
 
 .fa-search {
