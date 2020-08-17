@@ -338,6 +338,7 @@ form {
   float: left;
   padding: 30px;
   font-size: larger;
+  background: transparent;
 }
 
 .first-grid .box2 .fas.fa-long-arrow-alt-right {
@@ -361,6 +362,7 @@ form {
   float: left;
   padding: 30px;
   font-size: larger;
+  background: transparent;
 }
 
 .second-grid .box5 .fas.fa-long-arrow-alt-right {
